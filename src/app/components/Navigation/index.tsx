@@ -23,11 +23,11 @@ export default function Navigation() {
                 </div>
                 <div className="flex bg-white text-blue-900">
                     <ul className="flex justify-end w-full p-0 m-0 font-medium ">
-                        <li className="m-4"><Link href={'/trending'}>Trending</Link></li>
-                        <li className="m-4"><Link href={'/multimedia'}>Multimedia</Link></li>
-                        <li className="m-4"><Link href={'/tech-reviews'}>Tech Reviews</Link></li>
-                        <li className="m-4"><Link href={'/iot'}>IoT</Link></li>
-                        <li className="m-4"><Link href={'/ai'}>Artificial Intelligence</Link></li>
+                        <li className="m-4"><Link href={'/category/trending'}>Trending</Link></li>
+                        <li className="m-4"><Link href={'/category/multimedia'}>Multimedia</Link></li>
+                        <li className="m-4"><Link href={'/category/tech-reviews'}>Tech Reviews</Link></li>
+                        <li className="m-4"><Link href={'/category/iot'}>IoT</Link></li>
+                        <li className="m-4"><Link href={'/category/ai'}>Artificial Intelligence</Link></li>
                     </ul>
                     <FontAwesomeIcon className="text-black w-5 m-4 cursor-pointer" icon={faBars} />
                 </div>
@@ -35,3 +35,4 @@ export default function Navigation() {
         </>
     )
 }
+
