@@ -65,7 +65,7 @@ export default function PostCard() {
     return (
         
         <div className="rounded-md bg-white shadow-lg max-w-md mx-auto m-2">
-            <div className="relative">
+            <div className="relative cursor-pointer">
                 <Image src="/images/dummy-image.png" width={500} height={500} alt="dummy-image" className="rounded-t-md" />
             </div>
             <div className="px-4 py-3">
@@ -75,12 +75,7 @@ export default function PostCard() {
                 </div>
                 <hr className="my-2" />
                 <Link className="block text-lg font-semibold text-gray-900 hover:text-blue-500 capitalize"
-                    href={{
-                        pathname: `/post`,
-                        query: {
-                            post_id: post.id,
-                        }
-                    }}>
+                    href={`/post/${post.id}`}>
                         {post.title}
                 </Link>
                 <p className="text-sm font-medium text-gray-600">July 21, 2022</p>

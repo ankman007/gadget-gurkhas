@@ -9,7 +9,7 @@ export default function OurExpertiseCard() {
         <div className="container mx-auto flex justify-center items-center m-4 rounded-2xl">
             <div className="flex flex-col lg:flex-row">
                 <div className="w-full lg:w-1/2 p-10 bg-gray-100">
-                    <Image src="/images/dummy-image.png" width={500} height={500} alt="dummy-image" className="rounded-t-lg lg:rounded-t-none lg:rounded-l-lg rounded-xl" />
+                    <Image src="/images/dummy-image.png" width={500} height={500} alt="dummy-image" className="rounded-t-lg lg:rounded-t-none lg:rounded-l-lg rounded-xl cursor-pointer" />
                 </div>
                 <div className="w-full lg:w-1/2 bg-blue-900 p-4 lg:rounded-r-lg text-white flex flex-col justify-center items-center">
                 <h4 className="text-xl font-bold mb-4">Our Expertise</h4>
