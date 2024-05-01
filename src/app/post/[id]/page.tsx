@@ -30,8 +30,6 @@ export default function MyComponent(){
     useEffect(() => {
         getPostInfo();
     }, [])
-
-
     return (
         <>
             <Navigation/>

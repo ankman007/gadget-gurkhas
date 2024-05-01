@@ -14,6 +14,11 @@ export default function OurExpertiseCard() {
                 <div className="w-full lg:w-1/2 bg-blue-900 p-4 lg:rounded-r-lg text-white flex flex-col justify-center items-center">
                 <h4 className="text-xl font-bold mb-4">Our Expertise</h4>
                 <p className="text-center">{blogDescription}</p>
+                <button className="bg-gray-500 hover:bg-blue-700 text-white rounded m-4 p-2">
+                    <Link href={'/about-us'}>
+                        More About Us
+                    </Link>
+                </button>
             </div>
 
             </div>
