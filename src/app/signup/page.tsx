@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Header from "../components/LogoBanner";
 
 
 export default function SignUpPage() {
@@ -32,8 +33,10 @@ export default function SignUpPage() {
     console.log(user);
   };
   return (
-<div className="flex justify-center items-center min-h-screen bg-gray-400 bg-opacity-40 p-5">
-  <div className="container bg-white shadow-md rounded-lg p-4 md:w-3/5 lg:w-2/5 xl:w-1/3">
+<div className=" bg-gray-300 min-h-screen">
+  <Header/>
+  <div className="flex justify-center items-center bg-gray-400 bg-opacity-40 p-5">
+  <div className="container bg-white shadow-md rounded-lg p-3 md:w-max w-3/4">
     <h1 className="font-bold text-2xl mb-4">Create an account</h1>
     <form className="flex flex-col gap-4 mb-6">
       <div className="names flex flex-col gap-4 md:flex-row">
@@ -104,6 +107,7 @@ export default function SignUpPage() {
       </a>{" "}
     </p>
   </div>
+</div>
 </div>
 
 

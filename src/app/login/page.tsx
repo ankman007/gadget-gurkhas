@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Header from "../components/LogoBanner";
 
 
 export default function LoginInPage() {
@@ -22,7 +23,9 @@ export default function LoginInPage() {
     console.log(user);
   };
   return (
-<div className="flex justify-center items-center min-h-screen bg-gray-400 bg-opacity-40 p-5">
+<div className=" bg-gray-300 min-h-screen">
+<Header/>
+<div className="flex justify-center items-center bg-opacity-40 p-5">
   <div className="container bg-white shadow-md rounded-lg p-4 w-max">
     <h1 className="heading font-bold text-2xl mb-4">Welcome back</h1>
     <p className="para text-gray-500 mb-8">Enter your credentials to access the account.</p>
@@ -50,7 +53,7 @@ export default function LoginInPage() {
 
       <div className="forgot flex justify-between items-center">
         <div className="terms flex gap-4 items-center">
-          <input type="checkbox" name="" id="" required />
+          <input type="checkbox" name="" id="" />
           <p className="text-sm">Remember me</p>
         </div>
         <div>
@@ -65,6 +68,7 @@ export default function LoginInPage() {
       </Link>{" "}
     </p>
   </div>
+</div>
 </div>
 
   );
