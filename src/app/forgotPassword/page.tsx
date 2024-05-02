@@ -19,11 +19,11 @@ export default function ForgotPasswordPage() {
     console.log(user);
   };
   return (
-<div className="flex justify-center items-center min-h-screen bg-gray-400 bg-opacity-40">
-  <div className="container bg-white shadow-md rounded-lg p-8 w-max">
+<div className="flex justify-center items-center min-h-screen bg-gray-400 bg-opacity-40 p-5">
+  <div className="container bg-white shadow-md rounded-lg p-8 w-96">
     <Link href={'/login'} className="mb-4"><FontAwesomeIcon className="arrow h-5" icon={faArrowLeft} /></Link>
-    <h1 className="heading font-bold text-2xl mb-4">Forgot Password</h1>
-    <p className="para text-gray-500 mb-8">Enter your email address for which account you want to <br /> reset your password.</p>
+    <h1 className="heading font-bold text-2xl mb-4 mt-2">Forgot Password</h1>
+    <p className="para text-gray-500 mb-8">Enter your email address for which account you want to reset your password.</p>
     <form className="form flex flex-col gap-4">
 
       <div className="inputField flex flex-col gap-2">
