@@ -6,6 +6,7 @@ import EditorsPickPosts from "./components/EditorsPickPosts";
 import DeepDivesPosts from "./components/DeepDivesPosts";
 import OurExpertiseCard from "./components/OurExpertiseCard";
 import Footer from "./components/Footer"
+import OfferCards from "./components/OfferCards";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <EditorsPickPosts/>
       <DeepDivesPosts/>
       <OurExpertiseCard/>
+      <OfferCards/>
       <Footer/>
 
     </>   
