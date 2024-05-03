@@ -1,0 +1,104 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Introduction to React",
+      "description": "Learn the basics of React.js and how to build interactive user interfaces.",
+      "image": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/5923684/og_image/optimized/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
+      "author": "John Doe",
+      "authorId": 123,
+      "publishedDate": "2024-04-01",
+      "category": "Technology"
+    },
+    {
+      "id": 2,
+      "title": "The Art of Data Visualization",
+      "description": "Explore the principles and techniques of data visualization for effective communication.",
+      "image": "/images/javascript.png",
+      "author": "Jane Smith",
+      "authorId": 456,
+      "publishedDate": "2024-04-05",
+      "category": "Data Science"
+    },
+    {
+      "id": 3,
+      "title": "Mastering JavaScript Arrays",
+      "description": "Unlock the full potential of JavaScript arrays with advanced techniques and best practices.",
+      "image": "/images/javascript.png",
+      "author": "Alice Johnson",
+      "authorId": 789,
+      "publishedDate": "2024-04-10",
+      "category": "Programming"
+    },
+    {
+      "id": 4,
+      "title": "Exploring the Cosmos: A Beginner's Guide to Astronomy",
+      "description": "Embark on a journey through the cosmos and discover the wonders of the universe.",
+      "image": "/images/astronomy.webp",
+      "author": "David Williams",
+      "authorId": 101,
+      "publishedDate": "2024-04-15",
+      "category": "Science"
+    },
+    {
+      "id": 5,
+      "title": "The Power of Artificial Intelligence",
+      "description": "Learn about the latest advancements in artificial intelligence and its impact on society.",
+      "image": "/images/astronomy.webp",
+      "author": "Emily Brown",
+      "authorId": 112,
+      "publishedDate": "2024-04-20",
+      "category": "Technology"
+    },
+    {
+      "id": 6,
+      "title": "Healthy Eating Habits for a Balanced Lifestyle",
+      "description": "Discover the importance of nutrition and how to develop healthy eating habits.",
+      "image": "/images/astronomy.webp",
+      "author": "Michael Davis",
+      "authorId": 314,
+      "publishedDate": "2024-04-25",
+      "category": "Health"
+    },
+    {
+      "id": 7,
+      "title": "The Future of Renewable Energy",
+      "description": "Explore the potential of renewable energy sources and their role in combating climate change.",
+      "image": "/images/astronomy.webp",
+      "author": "Sophia Clark",
+      "authorId": 516,
+      "publishedDate": "2024-04-30",
+      "category": "Environment"
+    },
+    {
+      "id": 8,
+      "title": "Mastering Python for Data Analysis",
+      "description": "Learn how to use Python for data analysis and gain valuable insights from your data.",
+      "image": "/images/astronomy.webp",
+      "author": "Daniel Martinez",
+      "authorId": 718,
+      "publishedDate": "2024-05-05",
+      "category": "Data Science"
+    },
+    {
+      "id": 9,
+      "title": "The Art of Photography: Capturing Moments",
+      "description": "Discover the fundamentals of photography and how to capture beautiful moments with your camera.",
+      "image": "/images/javascript.png",
+      "author": "Olivia Wilson",
+      "authorId": 920,
+      "publishedDate": "2024-05-10",
+      "category": "Art"
+    },
+    {
+      "id": 10,
+      "title": "Exploring the World of Microbiology",
+      "description": "Dive into the fascinating world of microbiology and learn about microscopic organisms.",
+      "image": "/images/javascript.png",
+      "author": "Benjamin Taylor",
+      "authorId": 1122,
+      "publishedDate": "2024-05-15",
+      "category": "Science"
+    }
+  ]
+}
