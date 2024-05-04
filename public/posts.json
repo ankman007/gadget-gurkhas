@@ -2,103 +2,158 @@
   "posts": [
     {
       "id": 1,
-      "title": "Introduction to React",
-      "description": "Learn the basics of React.js and how to build interactive user interfaces.",
+      "title": "Tech Review: Latest in React Development",
+      "description": "Explore the newest features and updates in React.js development for building cutting-edge user interfaces.",
       "image": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/5923684/og_image/optimized/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
-      "author": "John Doe",
+      "author": "Himal Acharya",
       "authorId": 123,
       "publishedDate": "2024-04-01",
-      "category": "Technology"
+      "category": "Tech Reviews",
+      "categoryId": 11
     },
     {
       "id": 2,
-      "title": "The Art of Data Visualization",
-      "description": "Explore the principles and techniques of data visualization for effective communication.",
-      "image": "/images/javascript.png",
-      "author": "Jane Smith",
+      "title": "Multimedia Magic: Exploring Visual and Audio Technologies",
+      "description": "Dive into the world of multimedia and discover the latest advancements in visual and audio technologies.",
+      "image": "/images/multimedia.jpg",
+      "author": "Umesh",
       "authorId": 456,
       "publishedDate": "2024-04-05",
-      "category": "Data Science"
+      "category": "Multimedia",
+      "categoryId": 12
     },
     {
       "id": 3,
-      "title": "Mastering JavaScript Arrays",
-      "description": "Unlock the full potential of JavaScript arrays with advanced techniques and best practices.",
-      "image": "/images/javascript.png",
-      "author": "Alice Johnson",
+      "title": "IoT Innovations: Revolutionizing Connectivity",
+      "description": "Learn about the latest Internet of Things (IoT) innovations and how they're revolutionizing connectivity across devices.",
+      "image": "/images/industrial-iot.jpg",
+      "author": "Yubraj Adhikari",
       "authorId": 789,
       "publishedDate": "2024-04-10",
-      "category": "Programming"
+      "category": "IoT",
+      "categoryId": 13
     },
     {
       "id": 4,
-      "title": "Exploring the Cosmos: A Beginner's Guide to Astronomy",
-      "description": "Embark on a journey through the cosmos and discover the wonders of the universe.",
-      "image": "/images/astronomy.webp",
-      "author": "David Williams",
+      "title": "AI Advancements: The Future of Artificial Intelligence",
+      "description": "Discover the cutting-edge advancements in artificial intelligence and its potential impact on various industries.",
+      "image": "/images/ethical-ai.jpg",
+      "author": "Ankit Poudel",
       "authorId": 101,
       "publishedDate": "2024-04-15",
-      "category": "Science"
+      "category": "Artificial Intelligence",
+      "categoryId": 14
+
     },
     {
       "id": 5,
       "title": "The Power of Artificial Intelligence",
       "description": "Learn about the latest advancements in artificial intelligence and its impact on society.",
-      "image": "/images/astronomy.webp",
-      "author": "Emily Brown",
+      "image": "/images/ethical-ai.jpg",
+      "author": "Aayush Gautam",
       "authorId": 112,
       "publishedDate": "2024-04-20",
-      "category": "Technology"
+      "category": "Tech Reviews",
+      "categoryId": 11
     },
     {
       "id": 6,
-      "title": "Healthy Eating Habits for a Balanced Lifestyle",
-      "description": "Discover the importance of nutrition and how to develop healthy eating habits.",
-      "image": "/images/astronomy.webp",
-      "author": "Michael Davis",
-      "authorId": 314,
-      "publishedDate": "2024-04-25",
-      "category": "Health"
+      "title": "The Future of Renewable Energy",
+      "description": "Explore the potential of renewable energy sources and their role in combating climate change.",
+      "image": "/images/renewable-energy.png",
+      "author": "Ankit Poudel",
+      "authorId": 516,
+      "publishedDate": "2024-04-30",
+      "category": "Energy",
+      "categoryId": 15
     },
     {
       "id": 7,
-      "title": "The Future of Renewable Energy",
-      "description": "Explore the potential of renewable energy sources and their role in combating climate change.",
-      "image": "/images/astronomy.webp",
-      "author": "Sophia Clark",
-      "authorId": 516,
-      "publishedDate": "2024-04-30",
-      "category": "Environment"
+      "title": "Mastering Python for Data Analysis",
+      "description": "Learn how to use Python for data analysis and gain valuable insights from your data.",
+      "image": "/images/data-analysis.avif",
+      "author": "Yubraj Adhikari",
+      "authorId": 718,
+      "publishedDate": "2024-05-05",
+      "category": "Artificial Intelligence",
+      "categoryId": 16
     },
     {
       "id": 8,
-      "title": "Mastering Python for Data Analysis",
-      "description": "Learn how to use Python for data analysis and gain valuable insights from your data.",
-      "image": "/images/astronomy.webp",
-      "author": "Daniel Martinez",
-      "authorId": 718,
-      "publishedDate": "2024-05-05",
-      "category": "Data Science"
+      "title": "Exploring the World of Microbiology",
+      "description": "Dive into the fascinating world of microbiology and learn about microscopic organisms.",
+      "image": "/images/microbiology.jpg",
+      "author": "Umesh",
+      "authorId": 1122,
+      "publishedDate": "2024-05-15",
+      "category": "Science",
+      "categoryId": 17
     },
     {
       "id": 9,
-      "title": "The Art of Photography: Capturing Moments",
-      "description": "Discover the fundamentals of photography and how to capture beautiful moments with your camera.",
-      "image": "/images/javascript.png",
-      "author": "Olivia Wilson",
-      "authorId": 920,
-      "publishedDate": "2024-05-10",
-      "category": "Art"
+      "title": "Smart Home Essentials: Building Your IoT Ecosystem",
+      "description": "Discover the essential devices and technologies to create a smart home ecosystem for convenience and efficiency.",
+      "image": "/images/smart-home.png",
+      "author": "Himal Acharya",
+      "authorId": 314,
+      "publishedDate": "2024-04-25",
+      "category": "IoT",
+      "categoryId": 13
     },
     {
       "id": 10,
-      "title": "Exploring the World of Microbiology",
-      "description": "Dive into the fascinating world of microbiology and learn about microscopic organisms.",
-      "image": "/images/javascript.png",
-      "author": "Benjamin Taylor",
-      "authorId": 1122,
-      "publishedDate": "2024-05-15",
-      "category": "Science"
+      "title": "Industrial IoT: Transforming Manufacturing Processes",
+      "description": "Learn how Industrial IoT (IIoT) is revolutionizing manufacturing processes and driving efficiency and productivity.",
+      "image": "/images/industrial-iot.jpg",
+      "author": "Himal Acharya",
+      "authorId": 516,
+      "publishedDate": "2024-04-30",
+      "category": "IoT",
+      "categoryId": 13
+    },
+    {
+      "id": 11,
+      "title": "Ethical AI: Addressing Bias and Fairness in Machine Learning",
+      "description": "Explore the ethical considerations in AI development and learn how to mitigate bias and ensure fairness in machine learning algorithms.",
+      "image": "/images/ethical-ai.jpg",
+      "author": "Umesh",
+      "authorId": 718,
+      "publishedDate": "2024-05-05",
+      "category": "AI",
+      "categoryId": 14
+    },
+    {
+      "id": 12,
+      "title": "In-depth Review: Latest iPhone Model",
+      "description": "Explore the features and performance of the newest iPhone model in this comprehensive review.",
+      "image": "/images/iphone.webp",
+      "author": "Yubraj Adhikari",
+      "authorId": 456,
+      "publishedDate": "2024-04-05",
+      "category": "Tech Reviews",
+      "categoryId": 11
+    },
+    {
+      "id": 13,
+      "title": "Gaming Laptop Showdown: Top Picks of the Year",
+      "description": "Discover the best gaming laptops of the year and find out which one suits your gaming needs.",
+      "image": "/images/gaming.jpg",
+      "author": "Ankit Poudel",
+      "authorId": 789,
+      "publishedDate": "2024-04-10",
+      "category": "Tech Reviews",
+      "categoryId": 11
+    },
+    {
+      "id": 14,
+      "title": "AI in Healthcare: Revolutionizing Patient Care",
+      "description": "Discover how artificial intelligence is transforming healthcare delivery, from diagnostics to personalized treatment.",
+      "image": "/images/ai-healthcare.jpg",
+      "author": "Aayush Gautam",
+      "authorId": 920,
+      "publishedDate": "2024-05-10",
+      "category": "AI",
+      "categoryId": 14
     }
   ]
 }

@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer className="container flex mx-auto bg-blue-900 p-2 rounded-xl text-white font-medium">
             <div className="design-by flex-grow m-4 cursor-pointer"> 
-                Design By <b className="text-gray-950">CodeSQAD</b>
+                Design By <b className="text-gray-950"><a href="https://github.com/ankman007/next-ts-blog-application" target="_blank">CodeSQAD</a></b>
             </div>
             <ul className="flex items-end">
                 <li className="m-4">

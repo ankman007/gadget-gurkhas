@@ -18,7 +18,7 @@ export default function ContactUsPage() {
     email: '',
     message: '',
     submitted: false,
-    error: '';
+    error: '',
   });
 
 
@@ -107,7 +107,7 @@ export default function ContactUsPage() {
         </form>
         ) : ( 
           <p className="container flex mx-auto justify-center">
-            Thank your for you message. We will get back to you as soon as possible.
+            Thank your for your message. We will get back to you as soon as possible.
           </p> 
         ) }
       </div>
