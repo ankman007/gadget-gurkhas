@@ -4,34 +4,34 @@ import { faHome, faInfoCircle, faEnvelope, faShieldAlt, faFileAlt } from '@forta
 
 export default function Footer() {
     return (
-        <footer className="container flex mx-auto bg-blue-900 p-2 rounded-xl text-white font-medium">
-            <div className="design-by flex-grow m-4 cursor-pointer"> 
-                Design By <b className="text-gray-950">CodeSQAD</b>
+        <footer className="container flex flex-col md:flex-row mx-auto bg-blue-900 p-2 rounded-xl text-white font-medium">
+            <div className="design-by flex-grow md:m-4 cursor-pointer "> 
+                Design By <b className="text-gray-950"><a href="https://github.com/ankman007/next-ts-blog-application" target="_blank">CodeSQAD</a></b>
             </div>
-            <ul className="flex items-end">
-                <li className="m-4">
+            <ul className="flex flex-wrap justify-center md:justify-end items-end">
+                <li className="m-2 md:m-4">
                     <Link href={'/'} className="flex items-center">
-                        Home
+                            Home
                     </Link>
                 </li>
-                <li className="m-4">
+                <li className="m-2 md:m-4">
                     <Link href={'/about-us'} className="flex items-center">
-                        About Us
+                            About Us
                     </Link>
                 </li>
-                <li className="m-4">
+                <li className="m-2 md:m-4">
                     <Link href={'/contact-us'} className="flex items-center">
-                        Contact Us
+                            Contact Us
                     </Link>
                 </li>
-                <li className="m-4">
+                <li className="m-2 md:m-4">
                     <Link href={'/privacy-policy'} className="flex items-center">
-                        Privacy Policy
+                            Privacy Policy
                     </Link>
                 </li>
-                <li className="m-4">
+                <li className="m-2 md:m-4">
                     <Link href={'/disclaimer'} className="flex items-center">
-                        Disclaimer
+                            Disclaimer
                     </Link>
                 </li>
             </ul>

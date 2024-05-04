@@ -15,10 +15,12 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+ html {
+  overflow-x: hidden;
+ }
 body {
-  /* color: white; */
-  background-color: white;
+    /* color: white; */
+    background-color: white;
 }
 
 @layer utilities {
