@@ -5,11 +5,13 @@ interface OfferCardProps {
 
 export default function OfferCard({ offerValue }: OfferCardProps) {
   return ( 
-    <div className=" relative flex flex-col items-center justify-center w-64 bg-blue-900 rounded-md px-5">
+
+    
+    <div className="flex relative flex-col items-center justify-center w-64 bg-blue-900 rounded-md px-5">
       <h1 className=" text-white p-5 text-xl text-center font-semibold">
         {offerValue}
       </h1>
-      <button className=" absolute bottom-6 text-white font-semibold bg-gray-500 p-2 rounded hover:bg-blue-700">
+      <button className="bottom-6 text-white font-semibold bg-gray-500 p-2 rounded hover:bg-blue-700">
         <Link href={`/about-us`}> 
           Explore More
         </Link>

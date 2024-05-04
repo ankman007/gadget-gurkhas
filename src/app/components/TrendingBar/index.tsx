@@ -42,8 +42,8 @@ export default function TrendingBar() {
   const trending_post: string = post.title;
 
   return (
-    <div className="container w-full rounded-xl bg-blue-900 h-10 flex items-center justify-start mx-auto m-4 p-3">
-      <div className="content flex items-center">
+    <div className="container w-full rounded-xl bg-blue-900 h-12 flex items-center justify-start mx-auto m-4 p-4 xs:h-16">
+      <div className="content flex items-center xs:p-4 xs:m-4">
         <FontAwesomeIcon icon={faBolt} className="text-yellow h-5 mr-3" />
         <p className="text-white cursor-pointer capitalize">
           {" "}
