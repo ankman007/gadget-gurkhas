@@ -8,20 +8,16 @@ import Header from "../components/LogoBanner";
 
 export default function LoginInPage() {
   const [user, setUser] = React.useState({
-
     email: "",
     password: ""
   });
+  const router = useRouter();
 
-
-
-  
-
-
-  const onLoginIn = async () => {
-
+  const onLoginIn = () => {
     console.log(user);
+    router.replace('/');
   };
+
   return (
 <div className=" bg-gray-300 min-h-screen">
 <Header/>

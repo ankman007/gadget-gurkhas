@@ -1,15 +1,18 @@
+import Link from "next/link";
 interface OfferCardProps {
   offerValue: string;
 }
 
 export default function OfferCard({ offerValue }: OfferCardProps) {
-  return (
+  return ( 
     <div className=" relative flex flex-col items-center justify-center w-64 bg-blue-900 rounded-md px-5">
       <h1 className=" text-white p-5 text-xl text-center font-semibold">
         {offerValue}
       </h1>
-      <button className=" absolute bottom-6 text-white font-semibold bg-gray-500 p-2 rounded-2xl">
-        Explore More
+      <button className=" absolute bottom-6 text-white font-semibold bg-gray-500 p-2 rounded hover:bg-blue-700">
+        <Link href={`/about-us`}> 
+          Explore More
+        </Link>
       </button>
       <div className=" absolute right-0 top-0 border-l-2 border-b-2 rounded-bl-sm border-white">
         <div

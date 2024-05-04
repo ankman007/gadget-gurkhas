@@ -10,7 +10,7 @@ export default function MyComponent() {
       <Header />
       <div className="container w-full rounded-xl bg-gray-100 mx-auto m-4 p-6 text-black flex flex-col items-center">
         <h2 className="text-2xl font-bold mb-4 capitalize text-center">
-          DISCLAIMER
+          Disclaimer
         </h2>
         <p className="text-lg">
           Welcome to Gadget Data, a platform dedicated to providing information,
@@ -63,9 +63,6 @@ export default function MyComponent() {
           technology information. We appreciate your continued support and trust
           in our platform.
         </p>
-        <button className="bg-blue-900 text-white font-bold py-2 px-4 rounded-lg mt-8 transition duration-300 ease-in-out transform hover:scale-105">
-          Learn More
-        </button>
       </div>
       <Footer />
     </>

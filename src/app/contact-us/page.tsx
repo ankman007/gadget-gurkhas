@@ -122,10 +122,9 @@ export default function ContactUsPage() {
           </form>
         ) : (
           <p className="container flex mx-auto justify-center">
-            Thank your for you message. We will get back to you as soon as
-            possible.
-          </p>
-        )}
+            Thank your for your message. We will get back to you as soon as possible.
+          </p> 
+        ) }
       </div>
       <Footer />
     </>
